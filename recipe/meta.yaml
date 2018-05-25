@@ -1,12 +1,11 @@
-{% set provider= "DNS" %}
+{% set provider = "DNS" %}
 {% set version = "2.0.0" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
 {% set sha256 = "74459907a74df55664c2e3f2cd5c142bf4633de9093f014af36227bb171ef339" %}
-{% set sha256_win32 = "e7e89746fde520e7cf3877782ca3a6555a38785811214f372cd197a6c5489a28" %}
-{% set sha256_win64 = "45c595d1b07c3de504a33f4dda62f99d4e3d9f091bb45ff38f6a46bdbcd5d808" %}
+{% set sha256_win64 = "a1e23f152c0740dfc6f93f6407af0f4e63ee1566185a15166d5bfea14b042af1" %}
 
 package:
   name: {{ name|lower }}
@@ -17,10 +16,8 @@ source:
   fn: {{ name }}-{{ version }}.tar.gz  # [not win]
   sha256: {{ sha256 }}  # [not win]
 
-  url: https://releases.hashicorp.com/{{ name }}/{{ version }}/{{ name }}_{{ version }}_windows_386.zip  # [win32]
   url: https://releases.hashicorp.com/{{ name }}/{{ version }}/{{ name }}_{{ version }}_windows_amd64.zip  # [win64]
   fn: {{ name }}-{{ version }}.zip  # [win]
-  sha256: {{ sha256_win32 }}  # [win32]
   sha256: {{ sha256_win64 }}  # [win64]
 
 build:
@@ -46,7 +43,7 @@ about:
   license: MPL 2.0
   summary: The Terraform {{ provider }} provider
   doc_url: https://www.terraform.io/docs/providers/{{ provider|lower }}/index.html
-  dev_url: https://https://github.com/terraform-providers/{{ name }}
+  dev_url: https://github.com/terraform-providers/{{ name }}
 
 extra:
   recipe-maintainers:
