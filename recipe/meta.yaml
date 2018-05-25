@@ -1,10 +1,10 @@
 {% set provider= "DNS" %}
-{% set version = "1.0.0" %}
+{% set version = "2.0.0" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
-{% set sha256 = "41312e38ba776e04d6fc9b94846f065ca00d37a3d28988cc836ed64c61e1815b" %}
+{% set sha256 = "74459907a74df55664c2e3f2cd5c142bf4633de9093f014af36227bb171ef339" %}
 {% set sha256_win32 = "e7e89746fde520e7cf3877782ca3a6555a38785811214f372cd197a6c5489a28" %}
 {% set sha256_win64 = "45c595d1b07c3de504a33f4dda62f99d4e3d9f091bb45ff38f6a46bdbcd5d808" %}
 
