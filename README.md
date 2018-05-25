@@ -14,14 +14,16 @@ Summary: The Terraform DNS provider
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/terraform-provider-dns-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/terraform-provider-dns-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/terraform-provider-dns-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/terraform-provider-dns-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/terraform-provider-dns-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/terraform-provider-dns-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/terraform-provider-dns-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/terraform-provider-dns-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/terraform-provider-dns-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/terraform-provider-dns-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/terraform-provider-dns-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/terraform-provider-dns-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-dns/badges/version.svg)](https://anaconda.org/conda-forge/terraform-provider-dns)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-dns/badges/downloads.svg)](https://anaconda.org/conda-forge/terraform-provider-dns)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-terraform--provider--dns-green.svg)](https://anaconda.org/conda-forge/terraform-provider-dns) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/terraform-provider-dns.svg)](https://anaconda.org/conda-forge/terraform-provider-dns) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/terraform-provider-dns.svg)](https://anaconda.org/conda-forge/terraform-provider-dns) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/terraform-provider-dns.svg)](https://anaconda.org/conda-forge/terraform-provider-dns) |
 
 Installing terraform-provider-dns
 =================================
